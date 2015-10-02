@@ -9,8 +9,8 @@ public class HalloweenQuilt
 {
     public static void main(String[] args)
     {
-        int height = 5; //There are no height restrictions ;)
-        int width = 4; /*WIDTH MUST BE EVEN!! If odd, it will print one less to make it even. 
+        int height = 6; //There are no height restrictions ;)
+        int width = 6; /*WIDTH MUST BE EVEN!! If odd, it will print one less to make it even. 
         Width must also be greater than or equal to two. If width is one, it will print a width of two.*/
         printQuilt(height, width);
     }
@@ -185,8 +185,8 @@ public class HalloweenQuilt
             }
             for (int k = 1; k <= (i + 1) % 2; k++)
             {
-                drawWitchEighthLine();
-                drawBatEighthLine();
+                drawWitchNinthLine();
+                drawBatNinthLine();
             }
             System.out.println();
             for (int j = 1; j <= (i + 2) % 2; j++)
@@ -229,7 +229,7 @@ public class HalloweenQuilt
             System.out.println();
         }
     }
-    public static void drawBatFirstLine()
+    public static void drawBatFirstLine() //Each line of the bat is separated into different methods
     {
         System.out.print("+------------------+");
     }
@@ -273,7 +273,7 @@ public class HalloweenQuilt
     {
         System.out.print("+------------------+");
     }
-    public static void drawWitchFirstLine()
+    public static void drawWitchFirstLine() //Each line of the Witch is separated into different methods, like the bat
     {
         System.out.print("+------------------+");
     }
