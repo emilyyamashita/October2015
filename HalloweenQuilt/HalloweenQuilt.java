@@ -1,4 +1,3 @@
-
 /**
  *Create an ASCII Art program that uses parameters, for loops and/or nested loops.
  * 
@@ -9,13 +8,10 @@ public class HalloweenQuilt
 {
     public static void main(String[] args)
     {
-<<<<<<< Updated upstream
-        int height = 6; //There are no height restrictions ;)
-        int width = 6; /*WIDTH MUST BE EVEN!! If odd, it will print one less to make it even. 
-=======
+        int height = 5; //There are no height restrictions ;)
+        int width = 4; /*WIDTH MUST BE EVEN!! If odd, it will print one less to make it even. 
         int height = 3; //There are no height restrictions ;)
         int width = 4; /*WIDTH MUST BE EVEN!! If odd, it will print one less to make it even. 
->>>>>>> Stashed changes
         Width must also be greater than or equal to two. If width is one, it will print a width of two.*/
         printQuilt(height, width);
     }
